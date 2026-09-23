@@ -1,0 +1,19 @@
+# --- PDF extraction ---
+pymupdf
+
+# --- Embeddings / vector store ---
+sentence-transformers
+qdrant-client[fastembed]
+fastembed
+
+# --- LLM ---
+ollama
+
+# --- Backend API ---
+fastapi
+uvicorn[standard]
+pydantic
+
+# --- Frontend ---
+streamlit
+requests
